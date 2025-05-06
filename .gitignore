@@ -1,0 +1,26 @@
+# Ignore the virtual environment
+venv/
+asl-alphabet/
+asl-alphabet.zip
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
+
+# Environment files and secrets
+.env
+kaggle.json
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
