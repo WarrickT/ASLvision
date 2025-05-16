@@ -1,5 +1,9 @@
 # Ignore the virtual environment
 venv/
+camera/
+data/
+utils/
+oldTestingUI/
 asl-alphabet/
 asl-alphabet.zip
 
@@ -24,3 +28,4 @@ Thumbs.db
 
 # Logs
 *.log
+asl_landmarks.csv
