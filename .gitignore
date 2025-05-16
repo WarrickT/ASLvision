@@ -2,7 +2,7 @@
 venv/
 camera/
 data/
-utils/
+oldUtils/
 oldTestingUI/
 asl-alphabet/
 asl-alphabet.zip
