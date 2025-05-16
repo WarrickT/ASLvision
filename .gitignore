@@ -6,7 +6,7 @@ oldUtils/
 oldTestingUI/
 asl-alphabet/
 asl-alphabet.zip
-
+.env
 # Python bytecode files
 __pycache__/
 *.py[cod]

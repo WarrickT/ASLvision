@@ -10,7 +10,7 @@ export async function sendLandmarksToBackend(
 
     const flattened = landmarks.flatMap((lm) => [lm.x, lm.y, lm.z]);
     try{
-        const res = await fetch("https://aslvision-65js.onrender.com/predict", {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/predict`, {
             method: "POST",
             headers: {
                 "Content-type": "application/json",
