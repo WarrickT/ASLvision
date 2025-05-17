@@ -12,10 +12,10 @@ https://github.com/user-attachments/assets/44ee4f7e-c42e-4eb3-8b76-c90516c269a0
 
 
 ## Key Features
-🔤 Real-time ASL alphabet recognition using webcam
-🧠 Custom-trained Random Forest classifier
-🧪 Test mode with scoring and timers
-🎥 Frontend webcam integration (MediaPipe Hands)
+🔤 Real-time ASL alphabet recognition using webcam <br/>
+🧠 Custom-trained Random Forest classifier <br/>
+🧪 Test mode with scoring and timers <br/>
+🎥 Frontend webcam integration (MediaPipe Hands) <br/>
 
 ## Tech Stack! 💻
 Frontend: React + TailwindCSS <br/>
