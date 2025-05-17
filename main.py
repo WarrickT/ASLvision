@@ -9,13 +9,19 @@ from model.predict import predict_from_landmarks
 from typing import List
 
 app = FastAPI()
+from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
-    CORSMiddleware, 
-    allow_origins=["https://aslvision-frontend.onrender.com, http://localhost:5173"],
+    CORSMiddleware,
+    allow_origins=[
+        "https://aslvision-frontend.onrender.com",
+        "http://localhost:5173"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
 )
+
 
 # This defines the shape of the incoming request body
 # FastAPI parses the JSON and checks for a "landmarks" field that is a list of floats
