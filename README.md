@@ -4,6 +4,8 @@
 This is one of my first times creating an ML algorithm completely from scratch and utilizing it in a project!<br/>
 ASLVision uses OpenCV and a Random Forest Classifer (self-made) to help and test users' ASL alphabet signing. 
 
+Access the **deployed** version here! https://aslvision-frontend.onrender.com/
+
 ## Key Features
 🔤 Real-time ASL alphabet recognition using webcam
 🧠 Custom-trained Random Forest classifier
