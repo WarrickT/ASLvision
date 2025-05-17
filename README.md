@@ -6,6 +6,11 @@ ASLVision uses OpenCV and a Random Forest Classifer (self-made) to help and test
 
 Access the **deployed** version here! https://aslvision-frontend.onrender.com/
 
+Here is a quick demo video:
+
+https://github.com/user-attachments/assets/44ee4f7e-c42e-4eb3-8b76-c90516c269a0
+
+
 ## Key Features
 🔤 Real-time ASL alphabet recognition using webcam
 🧠 Custom-trained Random Forest classifier
